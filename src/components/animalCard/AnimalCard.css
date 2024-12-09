@@ -1,0 +1,36 @@
+.animal__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    width: 300px;
+}
+
+.animal__data {
+    text-align: center;
+}
+
+.animal__data h4 {
+    font-weight: 500;
+}
+
+.animal__img {
+    font-size: 6rem;
+}
+
+.animal__funfacts {
+    width: 100%;
+    background-color: #5d429b;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.animal__funfacts ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
